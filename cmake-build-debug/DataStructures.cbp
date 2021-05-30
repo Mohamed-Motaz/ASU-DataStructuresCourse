@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="classes">
-				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/classes" prefix_auto="0" extension_auto="0"/>
+			<Target title="queues">
+				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/queues" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +42,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 classes"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 queues"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="classes/fast">
-				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/classes" prefix_auto="0" extension_auto="0"/>
+			<Target title="queues/fast">
+				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/queues" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,17 +63,49 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 classes/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 queues/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="DataStructures">
+				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/DataStructures" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataStructures/fast">
+				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/DataStructures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -163,29 +195,18 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DataStructures">
-				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/DataStructures" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DataStructures/fast">
-				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/DataStructures" prefix_auto="0" extension_auto="0"/>
+			<Target title="classes">
+				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/classes" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -199,7 +220,28 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 classes"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classes/fast">
+				<Option output="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/classes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamed247/Desktop/DataStructures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 classes/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -217,6 +259,15 @@
 		</Unit>
 		<Unit filename="/Users/mohamed247/Desktop/DataStructures/Pointers/pointers.cpp">
 			<Option target="pointers"/>
+		</Unit>
+		<Unit filename="/Users/mohamed247/Desktop/DataStructures/Queues/QueueArr.cpp">
+			<Option target="queues"/>
+		</Unit>
+		<Unit filename="/Users/mohamed247/Desktop/DataStructures/Queues/QueueArr.h">
+			<Option target="queues"/>
+		</Unit>
+		<Unit filename="/Users/mohamed247/Desktop/DataStructures/Queues/queues.cpp">
+			<Option target="queues"/>
 		</Unit>
 		<Unit filename="/Users/mohamed247/Desktop/DataStructures/Stacks/StackArr.cpp">
 			<Option target="stacks"/>

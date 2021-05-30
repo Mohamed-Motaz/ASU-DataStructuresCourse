@@ -52,8 +52,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/classes.dir/DependInfo.cmake"
+  "CMakeFiles/queues.dir/DependInfo.cmake"
+  "CMakeFiles/DataStructures.dir/DependInfo.cmake"
   "CMakeFiles/pointers.dir/DependInfo.cmake"
   "CMakeFiles/stacks.dir/DependInfo.cmake"
-  "CMakeFiles/DataStructures.dir/DependInfo.cmake"
+  "CMakeFiles/classes.dir/DependInfo.cmake"
   )

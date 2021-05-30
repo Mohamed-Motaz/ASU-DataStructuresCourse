@@ -9,3 +9,5 @@ add_executable(classes Classes/classes.cpp Classes/rectangle.cpp Classes/rectang
 
 
 add_executable(stacks Stacks/stacks.cpp Stacks/StackArr.cpp Stacks/StackArr.h)
+
+add_executable(queues Queues/queues.cpp Queues/QueueArr.cpp Queues/QueueArr.h)

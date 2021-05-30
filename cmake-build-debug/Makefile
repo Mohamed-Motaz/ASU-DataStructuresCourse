@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named classes
+# Target rules for targets named queues
 
 # Build rule for target.
-classes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 classes
-.PHONY : classes
+queues: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queues
+.PHONY : queues
 
 # fast build rule for target.
-classes/fast:
-	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
-.PHONY : classes/fast
+queues/fast:
+	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/build
+.PHONY : queues/fast
+
+#=============================================================================
+# Target rules for targets named DataStructures
+
+# Build rule for target.
+DataStructures: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DataStructures
+.PHONY : DataStructures
+
+# fast build rule for target.
+DataStructures/fast:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
+.PHONY : DataStructures/fast
 
 #=============================================================================
 # Target rules for targets named pointers
@@ -150,17 +163,17 @@ stacks/fast:
 .PHONY : stacks/fast
 
 #=============================================================================
-# Target rules for targets named DataStructures
+# Target rules for targets named classes
 
 # Build rule for target.
-DataStructures: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DataStructures
-.PHONY : DataStructures
+classes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 classes
+.PHONY : classes
 
 # fast build rule for target.
-DataStructures/fast:
-	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
-.PHONY : DataStructures/fast
+classes/fast:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
+.PHONY : classes/fast
 
 Classes/classes.o: Classes/classes.cpp.o
 
@@ -242,6 +255,60 @@ Pointers/pointers.s: Pointers/pointers.cpp.s
 Pointers/pointers.cpp.s:
 	$(MAKE) -f CMakeFiles/pointers.dir/build.make CMakeFiles/pointers.dir/Pointers/pointers.cpp.s
 .PHONY : Pointers/pointers.cpp.s
+
+Queues/QueueArr.o: Queues/QueueArr.cpp.o
+
+.PHONY : Queues/QueueArr.o
+
+# target to build an object file
+Queues/QueueArr.cpp.o:
+	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/Queues/QueueArr.cpp.o
+.PHONY : Queues/QueueArr.cpp.o
+
+Queues/QueueArr.i: Queues/QueueArr.cpp.i
+
+.PHONY : Queues/QueueArr.i
+
+# target to preprocess a source file
+Queues/QueueArr.cpp.i:
+	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/Queues/QueueArr.cpp.i
+.PHONY : Queues/QueueArr.cpp.i
+
+Queues/QueueArr.s: Queues/QueueArr.cpp.s
+
+.PHONY : Queues/QueueArr.s
+
+# target to generate assembly for a file
+Queues/QueueArr.cpp.s:
+	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/Queues/QueueArr.cpp.s
+.PHONY : Queues/QueueArr.cpp.s
+
+Queues/queues.o: Queues/queues.cpp.o
+
+.PHONY : Queues/queues.o
+
+# target to build an object file
+Queues/queues.cpp.o:
+	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/Queues/queues.cpp.o
+.PHONY : Queues/queues.cpp.o
+
+Queues/queues.i: Queues/queues.cpp.i
+
+.PHONY : Queues/queues.i
+
+# target to preprocess a source file
+Queues/queues.cpp.i:
+	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/Queues/queues.cpp.i
+.PHONY : Queues/queues.cpp.i
+
+Queues/queues.s: Queues/queues.cpp.s
+
+.PHONY : Queues/queues.s
+
+# target to generate assembly for a file
+Queues/queues.cpp.s:
+	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/Queues/queues.cpp.s
+.PHONY : Queues/queues.cpp.s
 
 Stacks/StackArr.o: Stacks/StackArr.cpp.o
 
@@ -331,11 +398,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... classes"
-	@echo "... edit_cache"
+	@echo "... queues"
+	@echo "... DataStructures"
 	@echo "... pointers"
 	@echo "... stacks"
-	@echo "... DataStructures"
+	@echo "... edit_cache"
+	@echo "... classes"
 	@echo "... Classes/classes.o"
 	@echo "... Classes/classes.i"
 	@echo "... Classes/classes.s"
@@ -345,6 +413,12 @@ help:
 	@echo "... Pointers/pointers.o"
 	@echo "... Pointers/pointers.i"
 	@echo "... Pointers/pointers.s"
+	@echo "... Queues/QueueArr.o"
+	@echo "... Queues/QueueArr.i"
+	@echo "... Queues/QueueArr.s"
+	@echo "... Queues/queues.o"
+	@echo "... Queues/queues.i"
+	@echo "... Queues/queues.s"
 	@echo "... Stacks/StackArr.o"
 	@echo "... Stacks/StackArr.i"
 	@echo "... Stacks/StackArr.s"

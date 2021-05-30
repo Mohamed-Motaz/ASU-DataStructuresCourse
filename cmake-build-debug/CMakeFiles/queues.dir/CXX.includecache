@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamed247/Desktop/DataStructures/Queues/QueueArr.cpp
+QueueArr.h
+/Users/mohamed247/Desktop/DataStructures/Queues/QueueArr.h
+iostream
+-
+assert.h
+-
+
+/Users/mohamed247/Desktop/DataStructures/Queues/QueueArr.h
+
+/Users/mohamed247/Desktop/DataStructures/Queues/queues.cpp
+iostream
+-
+QueueArr.cpp
+/Users/mohamed247/Desktop/DataStructures/Queues/QueueArr.cpp
+
