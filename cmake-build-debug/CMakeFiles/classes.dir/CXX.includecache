@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamed247/Desktop/DataStructures/Classes/classes.cpp
+iostream
+-
+rectangle.h
+/Users/mohamed247/Desktop/DataStructures/Classes/rectangle.h
+
+/Users/mohamed247/Desktop/DataStructures/Classes/rectangle.cpp
+iostream
+-
+rectangle.h
+/Users/mohamed247/Desktop/DataStructures/Classes/rectangle.h
+
+/Users/mohamed247/Desktop/DataStructures/Classes/rectangle.h
+

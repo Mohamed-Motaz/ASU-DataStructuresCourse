@@ -4,6 +4,7 @@
     <generated>
       <config projectName="DataStructures" targetName="DataStructures" />
       <config projectName="DataStructures" targetName="pointers" />
+      <config projectName="DataStructures" targetName="classes" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,7 +13,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d01ed2-c5f8-4c08-81e8-4d163fa77a2f" name="Default Changelist" comment="" />
+    <list default="true" id="28d01ed2-c5f8-4c08-81e8-4d163fa77a2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/rectangle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/rectangle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pointers/pointers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pointers/pointers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pointers.dir/Pointers/pointers.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pointers.dir/Pointers/pointers.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pointers.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pointers.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructures.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructures.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pointers" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pointers" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +39,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1tGLubz2ZnNsZhXm1r9eR6uLvcA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,11 +51,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="CMake Application.pointers">
+  <component name="RunManager" selected="CMake Application.classes">
     <configuration name="DataStructures" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures" TARGET_NAME="DataStructures" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures" RUN_TARGET_NAME="DataStructures">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures" TARGET_NAME="classes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures" RUN_TARGET_NAME="classes">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -45,6 +72,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.classes" />
       <item itemvalue="CMake Application.DataStructures" />
       <item itemvalue="CMake Application.pointers" />
     </list>
@@ -59,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622390703174</updated>
-      <workItem from="1622390706353" duration="1282000" />
+      <workItem from="1622390706353" duration="4557000" />
     </task>
     <servers />
   </component>
@@ -67,22 +95,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="678" height="245" key="GridCell.Tab.0.bottom" timestamp="1622392098465">
+    <state x="863" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622395125178">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622392098465" />
-    <state width="678" height="245" key="GridCell.Tab.0.center" timestamp="1622392098464">
+    <state x="863" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1622395125178" />
+    <state width="588" height="245" key="GridCell.Tab.0.bottom" timestamp="1622395485453">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622392098464" />
-    <state width="678" height="245" key="GridCell.Tab.0.left" timestamp="1622392098463">
+    <state width="588" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622395485453" />
+    <state width="588" height="245" key="GridCell.Tab.0.center" timestamp="1622395485451">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622392098463" />
-    <state width="678" height="245" key="GridCell.Tab.0.right" timestamp="1622392098465">
+    <state width="588" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622395485451" />
+    <state width="588" height="245" key="GridCell.Tab.0.left" timestamp="1622395485450">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="678" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622392098465" />
+    <state width="588" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622395485450" />
+    <state width="588" height="245" key="GridCell.Tab.0.right" timestamp="1622395485452">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="588" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622395485452" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1622390824089">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

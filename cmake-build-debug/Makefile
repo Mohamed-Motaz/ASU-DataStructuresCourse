@@ -124,6 +124,19 @@ pointers/fast:
 .PHONY : pointers/fast
 
 #=============================================================================
+# Target rules for targets named classes
+
+# Build rule for target.
+classes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 classes
+.PHONY : classes
+
+# fast build rule for target.
+classes/fast:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
+.PHONY : classes/fast
+
+#=============================================================================
 # Target rules for targets named DataStructures
 
 # Build rule for target.
@@ -135,6 +148,60 @@ DataStructures: cmake_check_build_system
 DataStructures/fast:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
+
+Classes/classes.o: Classes/classes.cpp.o
+
+.PHONY : Classes/classes.o
+
+# target to build an object file
+Classes/classes.cpp.o:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/Classes/classes.cpp.o
+.PHONY : Classes/classes.cpp.o
+
+Classes/classes.i: Classes/classes.cpp.i
+
+.PHONY : Classes/classes.i
+
+# target to preprocess a source file
+Classes/classes.cpp.i:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/Classes/classes.cpp.i
+.PHONY : Classes/classes.cpp.i
+
+Classes/classes.s: Classes/classes.cpp.s
+
+.PHONY : Classes/classes.s
+
+# target to generate assembly for a file
+Classes/classes.cpp.s:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/Classes/classes.cpp.s
+.PHONY : Classes/classes.cpp.s
+
+Classes/rectangle.o: Classes/rectangle.cpp.o
+
+.PHONY : Classes/rectangle.o
+
+# target to build an object file
+Classes/rectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/Classes/rectangle.cpp.o
+.PHONY : Classes/rectangle.cpp.o
+
+Classes/rectangle.i: Classes/rectangle.cpp.i
+
+.PHONY : Classes/rectangle.i
+
+# target to preprocess a source file
+Classes/rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/Classes/rectangle.cpp.i
+.PHONY : Classes/rectangle.cpp.i
+
+Classes/rectangle.s: Classes/rectangle.cpp.s
+
+.PHONY : Classes/rectangle.s
+
+# target to generate assembly for a file
+Classes/rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/Classes/rectangle.cpp.s
+.PHONY : Classes/rectangle.cpp.s
 
 Pointers/pointers.o: Pointers/pointers.cpp.o
 
@@ -199,7 +266,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... pointers"
+	@echo "... classes"
 	@echo "... DataStructures"
+	@echo "... Classes/classes.o"
+	@echo "... Classes/classes.i"
+	@echo "... Classes/classes.s"
+	@echo "... Classes/rectangle.o"
+	@echo "... Classes/rectangle.i"
+	@echo "... Classes/rectangle.s"
 	@echo "... Pointers/pointers.o"
 	@echo "... Pointers/pointers.i"
 	@echo "... Pointers/pointers.s"
