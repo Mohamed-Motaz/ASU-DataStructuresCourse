@@ -15,16 +15,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d01ed2-c5f8-4c08-81e8-4d163fa77a2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stacks/StackArr.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/StackArr.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructures.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructures.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/rectangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/rectangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/rectangle.h" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/rectangle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks/StackArr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks/StackArr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks/StackArr.h" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks/StackArr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks/stacks.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks/stacks.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/Classes/classes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/Classes/classes.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/Classes/rectangle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/Classes/rectangle.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rectangle.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/Stacks/StackArr.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/Stacks/StackArr.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/Stacks/stacks.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/Stacks/stacks.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/classes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/stacks" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622390703174</updated>
-      <workItem from="1622390706353" duration="7589000" />
+      <workItem from="1622390706353" duration="10048000" />
     </task>
     <servers />
   </component>
@@ -97,26 +108,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="863" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622395125178">
+    <state x="863" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622402328773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="863" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1622395125178" />
-    <state width="597" height="245" key="GridCell.Tab.0.bottom" timestamp="1622398968295">
+    <state x="863" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1622402328773" />
+    <state width="597" height="245" key="GridCell.Tab.0.bottom" timestamp="1622403143882">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="597" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622398968295" />
-    <state width="597" height="245" key="GridCell.Tab.0.center" timestamp="1622398968294">
+    <state width="597" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622403143882" />
+    <state width="597" height="245" key="GridCell.Tab.0.center" timestamp="1622403143881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="597" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622398968294" />
-    <state width="597" height="245" key="GridCell.Tab.0.left" timestamp="1622398968294">
+    <state width="597" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622403143881" />
+    <state width="597" height="245" key="GridCell.Tab.0.left" timestamp="1622403143881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="597" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622398968294" />
-    <state width="597" height="245" key="GridCell.Tab.0.right" timestamp="1622398968295">
+    <state width="597" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622403143881" />
+    <state width="597" height="245" key="GridCell.Tab.0.right" timestamp="1622403143882">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="597" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622398968295" />
+    <state width="597" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622403143882" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1622390824089">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

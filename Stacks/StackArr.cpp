@@ -7,45 +7,50 @@
 #include <iostream>
 
 using namespace std;
-
-StackArr::StackArr() {
+template <class T>
+StackArr<T>::StackArr() {
     elements = 0;
     capacity = 2;
-    arr = new int[capacity];
+    arr = new T[capacity];
 }
-void StackArr::push(int value) {
+template <class T>
+void StackArr<T>::push(T value) {
     if (elements == capacity)
         expand();
 
     arr[elements] = value;
     elements++;
 }
-void StackArr::expand() {
+template <class T>
+void StackArr<T>::expand() {
     capacity *= 2;
-    int *tmp = new int[capacity];
+    T *tmp = new T[capacity];
     for (int i = 0; i < elements; i++){
         tmp[i] = arr[i];
     }
     delete[] arr;
     arr = tmp;
 }
-void StackArr::pop() {
+template <class T>
+void StackArr<T>::pop() {
     assert(elements != 0);
     elements--;
 }
-int StackArr::top() {
+template <class T>
+T StackArr<T>::top() {
     assert(elements != 0);
     return arr[elements - 1];
 }
-bool StackArr::empty() {
+template <class T>
+bool StackArr<T>::empty() {
     return elements == 0;
 }
-
-int StackArr::length() {
+template <class T>
+int StackArr<T>::length() {
     return elements;
 }
-
-StackArr::~StackArr() {
+template <class T>
+StackArr<T>::~StackArr() {
     cout << "Stack about to be deleted" << endl;
     delete[] arr;
 }

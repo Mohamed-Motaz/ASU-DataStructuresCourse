@@ -4,6 +4,7 @@
 CMakeFiles/stacks.dir/Stacks/StackArr.cpp.o: ../Stacks/StackArr.cpp
 CMakeFiles/stacks.dir/Stacks/StackArr.cpp.o: ../Stacks/StackArr.h
 
+CMakeFiles/stacks.dir/Stacks/stacks.cpp.o: ../Stacks/StackArr.cpp
 CMakeFiles/stacks.dir/Stacks/stacks.cpp.o: ../Stacks/StackArr.h
 CMakeFiles/stacks.dir/Stacks/stacks.cpp.o: ../Stacks/stacks.cpp
 

@@ -5,18 +5,18 @@
 #ifndef DATASTRUCTURES_STACKARR_H
 #define DATASTRUCTURES_STACKARR_H
 
-
+template <class T>
 class StackArr {
 private:
-    int *arr;
+    T *arr;
     int elements;
     int capacity;
 public:
     StackArr();
     int length();
     void pop();
-    int top();
-    void push(int);
+    T top();
+    void push(T);
     bool empty();
     void expand();
     ~StackArr();
