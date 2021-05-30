@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named classes
+
+# Build rule for target.
+classes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 classes
+.PHONY : classes
+
+# fast build rule for target.
+classes/fast:
+	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
+.PHONY : classes/fast
+
+#=============================================================================
 # Target rules for targets named pointers
 
 # Build rule for target.
@@ -124,17 +137,17 @@ pointers/fast:
 .PHONY : pointers/fast
 
 #=============================================================================
-# Target rules for targets named classes
+# Target rules for targets named stacks
 
 # Build rule for target.
-classes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 classes
-.PHONY : classes
+stacks: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stacks
+.PHONY : stacks
 
 # fast build rule for target.
-classes/fast:
-	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
-.PHONY : classes/fast
+stacks/fast:
+	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/build
+.PHONY : stacks/fast
 
 #=============================================================================
 # Target rules for targets named DataStructures
@@ -230,6 +243,60 @@ Pointers/pointers.cpp.s:
 	$(MAKE) -f CMakeFiles/pointers.dir/build.make CMakeFiles/pointers.dir/Pointers/pointers.cpp.s
 .PHONY : Pointers/pointers.cpp.s
 
+Stacks/StackArr.o: Stacks/StackArr.cpp.o
+
+.PHONY : Stacks/StackArr.o
+
+# target to build an object file
+Stacks/StackArr.cpp.o:
+	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/Stacks/StackArr.cpp.o
+.PHONY : Stacks/StackArr.cpp.o
+
+Stacks/StackArr.i: Stacks/StackArr.cpp.i
+
+.PHONY : Stacks/StackArr.i
+
+# target to preprocess a source file
+Stacks/StackArr.cpp.i:
+	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/Stacks/StackArr.cpp.i
+.PHONY : Stacks/StackArr.cpp.i
+
+Stacks/StackArr.s: Stacks/StackArr.cpp.s
+
+.PHONY : Stacks/StackArr.s
+
+# target to generate assembly for a file
+Stacks/StackArr.cpp.s:
+	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/Stacks/StackArr.cpp.s
+.PHONY : Stacks/StackArr.cpp.s
+
+Stacks/stacks.o: Stacks/stacks.cpp.o
+
+.PHONY : Stacks/stacks.o
+
+# target to build an object file
+Stacks/stacks.cpp.o:
+	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/Stacks/stacks.cpp.o
+.PHONY : Stacks/stacks.cpp.o
+
+Stacks/stacks.i: Stacks/stacks.cpp.i
+
+.PHONY : Stacks/stacks.i
+
+# target to preprocess a source file
+Stacks/stacks.cpp.i:
+	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/Stacks/stacks.cpp.i
+.PHONY : Stacks/stacks.cpp.i
+
+Stacks/stacks.s: Stacks/stacks.cpp.s
+
+.PHONY : Stacks/stacks.s
+
+# target to generate assembly for a file
+Stacks/stacks.cpp.s:
+	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/Stacks/stacks.cpp.s
+.PHONY : Stacks/stacks.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -264,9 +331,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... classes"
 	@echo "... edit_cache"
 	@echo "... pointers"
-	@echo "... classes"
+	@echo "... stacks"
 	@echo "... DataStructures"
 	@echo "... Classes/classes.o"
 	@echo "... Classes/classes.i"
@@ -277,6 +345,12 @@ help:
 	@echo "... Pointers/pointers.o"
 	@echo "... Pointers/pointers.i"
 	@echo "... Pointers/pointers.s"
+	@echo "... Stacks/StackArr.o"
+	@echo "... Stacks/StackArr.i"
+	@echo "... Stacks/StackArr.s"
+	@echo "... Stacks/stacks.o"
+	@echo "... Stacks/stacks.i"
+	@echo "... Stacks/stacks.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

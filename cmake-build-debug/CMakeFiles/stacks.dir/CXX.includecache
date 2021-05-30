@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamed247/Desktop/DataStructures/Stacks/StackArr.cpp
+StackArr.h
+/Users/mohamed247/Desktop/DataStructures/Stacks/StackArr.h
+assert.h
+-
+iostream
+-
+
+/Users/mohamed247/Desktop/DataStructures/Stacks/StackArr.h
+
+/Users/mohamed247/Desktop/DataStructures/Stacks/stacks.cpp
+iostream
+-
+StackArr.h
+/Users/mohamed247/Desktop/DataStructures/Stacks/StackArr.h
+

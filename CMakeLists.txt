@@ -7,3 +7,5 @@ add_executable(DataStructures main.cpp)
 add_executable(pointers Pointers/pointers.cpp)
 add_executable(classes Classes/classes.cpp Classes/rectangle.cpp Classes/rectangle.h)
 
+
+add_executable(stacks Stacks/stacks.cpp Stacks/StackArr.cpp Stacks/StackArr.h)
