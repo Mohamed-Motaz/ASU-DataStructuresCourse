@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamed247/Desktop/DataStructures/ArrayLists/ArrList.h
+
+/Users/mohamed247/Desktop/DataStructures/ArrayLists/arrList.cpp
+ArrList.h
+/Users/mohamed247/Desktop/DataStructures/ArrayLists/ArrList.h
+iostream
+-
+
+/Users/mohamed247/Desktop/DataStructures/ArrayLists/arrayLists.cpp
+iostream
+-
+arrList.cpp
+/Users/mohamed247/Desktop/DataStructures/ArrayLists/arrList.cpp
+

@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /Users/mohamed247/Desktop/DataStructures/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/queues.dir/all
+all: CMakeFiles/arrayLists.dir/all
 all: CMakeFiles/DataStructures.dir/all
 all: CMakeFiles/pointers.dir/all
 all: CMakeFiles/stacks.dir/all
@@ -63,6 +64,7 @@ all: CMakeFiles/classes.dir/all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/queues.dir/clean
+clean: CMakeFiles/arrayLists.dir/clean
 clean: CMakeFiles/DataStructures.dir/clean
 clean: CMakeFiles/pointers.dir/clean
 clean: CMakeFiles/stacks.dir/clean
@@ -82,7 +84,7 @@ preinstall:
 CMakeFiles/queues.dir/all:
 	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/depend
 	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=8,9,10 "Built target queues"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target queues"
 .PHONY : CMakeFiles/queues.dir/all
 
 # Build rule for subdir invocation for target.
@@ -101,6 +103,33 @@ queues: CMakeFiles/queues.dir/rule
 CMakeFiles/queues.dir/clean:
 	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/clean
 .PHONY : CMakeFiles/queues.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arrayLists.dir
+
+# All Build rule for target.
+CMakeFiles/arrayLists.dir/all:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/depend
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target arrayLists"
+.PHONY : CMakeFiles/arrayLists.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arrayLists.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arrayLists.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/arrayLists.dir/rule
+
+# Convenience name for target.
+arrayLists: CMakeFiles/arrayLists.dir/rule
+
+.PHONY : arrayLists
+
+# clean rule for target.
+CMakeFiles/arrayLists.dir/clean:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/clean
+.PHONY : CMakeFiles/arrayLists.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/DataStructures.dir
@@ -136,7 +165,7 @@ CMakeFiles/DataStructures.dir/clean:
 CMakeFiles/pointers.dir/all:
 	$(MAKE) -f CMakeFiles/pointers.dir/build.make CMakeFiles/pointers.dir/depend
 	$(MAKE) -f CMakeFiles/pointers.dir/build.make CMakeFiles/pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target pointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target pointers"
 .PHONY : CMakeFiles/pointers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +192,7 @@ CMakeFiles/pointers.dir/clean:
 CMakeFiles/stacks.dir/all:
 	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/depend
 	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target stacks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=14,15,16 "Built target stacks"
 .PHONY : CMakeFiles/stacks.dir/all
 
 # Build rule for subdir invocation for target.
@@ -190,7 +219,7 @@ CMakeFiles/stacks.dir/clean:
 CMakeFiles/classes.dir/all:
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/depend
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target classes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=6,7,8 "Built target classes"
 .PHONY : CMakeFiles/classes.dir/all
 
 # Build rule for subdir invocation for target.

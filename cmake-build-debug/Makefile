@@ -124,6 +124,19 @@ queues/fast:
 .PHONY : queues/fast
 
 #=============================================================================
+# Target rules for targets named arrayLists
+
+# Build rule for target.
+arrayLists: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrayLists
+.PHONY : arrayLists
+
+# fast build rule for target.
+arrayLists/fast:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/build
+.PHONY : arrayLists/fast
+
+#=============================================================================
 # Target rules for targets named DataStructures
 
 # Build rule for target.
@@ -174,6 +187,60 @@ classes: cmake_check_build_system
 classes/fast:
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
 .PHONY : classes/fast
+
+ArrayLists/ArrList.o: ArrayLists/ArrList.cpp.o
+
+.PHONY : ArrayLists/ArrList.o
+
+# target to build an object file
+ArrayLists/ArrList.cpp.o:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/ArrayLists/ArrList.cpp.o
+.PHONY : ArrayLists/ArrList.cpp.o
+
+ArrayLists/ArrList.i: ArrayLists/ArrList.cpp.i
+
+.PHONY : ArrayLists/ArrList.i
+
+# target to preprocess a source file
+ArrayLists/ArrList.cpp.i:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/ArrayLists/ArrList.cpp.i
+.PHONY : ArrayLists/ArrList.cpp.i
+
+ArrayLists/ArrList.s: ArrayLists/ArrList.cpp.s
+
+.PHONY : ArrayLists/ArrList.s
+
+# target to generate assembly for a file
+ArrayLists/ArrList.cpp.s:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/ArrayLists/ArrList.cpp.s
+.PHONY : ArrayLists/ArrList.cpp.s
+
+ArrayLists/arrayLists.o: ArrayLists/arrayLists.cpp.o
+
+.PHONY : ArrayLists/arrayLists.o
+
+# target to build an object file
+ArrayLists/arrayLists.cpp.o:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/ArrayLists/arrayLists.cpp.o
+.PHONY : ArrayLists/arrayLists.cpp.o
+
+ArrayLists/arrayLists.i: ArrayLists/arrayLists.cpp.i
+
+.PHONY : ArrayLists/arrayLists.i
+
+# target to preprocess a source file
+ArrayLists/arrayLists.cpp.i:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/ArrayLists/arrayLists.cpp.i
+.PHONY : ArrayLists/arrayLists.cpp.i
+
+ArrayLists/arrayLists.s: ArrayLists/arrayLists.cpp.s
+
+.PHONY : ArrayLists/arrayLists.s
+
+# target to generate assembly for a file
+ArrayLists/arrayLists.cpp.s:
+	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/ArrayLists/arrayLists.cpp.s
+.PHONY : ArrayLists/arrayLists.cpp.s
 
 Classes/classes.o: Classes/classes.cpp.o
 
@@ -399,11 +466,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... queues"
+	@echo "... arrayLists"
 	@echo "... DataStructures"
 	@echo "... pointers"
 	@echo "... stacks"
 	@echo "... edit_cache"
 	@echo "... classes"
+	@echo "... ArrayLists/ArrList.o"
+	@echo "... ArrayLists/ArrList.i"
+	@echo "... ArrayLists/ArrList.s"
+	@echo "... ArrayLists/arrayLists.o"
+	@echo "... ArrayLists/arrayLists.i"
+	@echo "... ArrayLists/arrayLists.s"
 	@echo "... Classes/classes.o"
 	@echo "... Classes/classes.i"
 	@echo "... Classes/classes.s"
