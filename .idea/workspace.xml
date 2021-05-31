@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="DataStructures" targetName="DataStructures" />
+      <config projectName="DataStructures" targetName="binarySearchTrees" />
       <config projectName="DataStructures" targetName="pointers" />
       <config projectName="DataStructures" targetName="queues" />
       <config projectName="DataStructures" targetName="stacks" />
@@ -18,19 +19,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d01ed2-c5f8-4c08-81e8-4d163fa77a2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedLists/LinkedList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedLists/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTrees/BSTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTrees/BSTree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/classes.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linkedLists.dir/LinkedLists/linkedLists.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linkedLists.dir/LinkedLists/linkedLists.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linkedLists.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linkedLists.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pointers.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pointers.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queues.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queues.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stacks.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructures.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructures.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/linkedLists" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/linkedLists" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +62,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="CMake Application.linkedLists">
+  <component name="RunManager" selected="CMake Application.binarySearchTrees">
     <configuration name="DataStructures" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures" TARGET_NAME="DataStructures" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures" RUN_TARGET_NAME="DataStructures">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="arrayLists" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures" TARGET_NAME="arrayLists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures" RUN_TARGET_NAME="arrayLists">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binarySearchTrees" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructures" TARGET_NAME="binarySearchTrees" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructures" RUN_TARGET_NAME="binarySearchTrees">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,6 +105,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.arrayLists" />
+      <item itemvalue="CMake Application.binarySearchTrees" />
       <item itemvalue="CMake Application.classes" />
       <item itemvalue="CMake Application.DataStructures" />
       <item itemvalue="CMake Application.linkedLists" />
@@ -114,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622390703174</updated>
       <workItem from="1622390706353" duration="18148000" />
-      <workItem from="1622479806094" duration="3364000" />
+      <workItem from="1622479806094" duration="16217000" />
     </task>
     <servers />
   </component>
@@ -126,30 +137,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="863" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1622402328773" />
-    <state width="914" height="245" key="GridCell.Tab.0.bottom" timestamp="1622483022929">
+    <state width="897" height="245" key="GridCell.Tab.0.bottom" timestamp="1622503747630">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622483022929" />
+    <state width="897" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622503747630" />
     <state width="597" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622409577663" />
-    <state width="914" height="245" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622482049423" />
-    <state width="914" height="245" key="GridCell.Tab.0.center" timestamp="1622483022927">
+    <state width="897" height="245" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622492558717" />
+    <state width="897" height="245" key="GridCell.Tab.0.center" timestamp="1622503747629">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622483022927" />
+    <state width="897" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622503747629" />
     <state width="597" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622409577662" />
-    <state width="914" height="245" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622482049420" />
-    <state width="914" height="245" key="GridCell.Tab.0.left" timestamp="1622483022926">
+    <state width="897" height="245" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622492558715" />
+    <state width="897" height="245" key="GridCell.Tab.0.left" timestamp="1622503747627">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622483022926" />
+    <state width="897" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622503747627" />
     <state width="597" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622409577661" />
-    <state width="914" height="245" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622482049419" />
-    <state width="914" height="245" key="GridCell.Tab.0.right" timestamp="1622483022928">
+    <state width="897" height="245" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622492558714" />
+    <state width="897" height="245" key="GridCell.Tab.0.right" timestamp="1622503747629">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622483022928" />
+    <state width="897" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622503747629" />
     <state width="597" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622409577662" />
-    <state width="914" height="245" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622482049422" />
+    <state width="897" height="245" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1622492558716" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1622390824089">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

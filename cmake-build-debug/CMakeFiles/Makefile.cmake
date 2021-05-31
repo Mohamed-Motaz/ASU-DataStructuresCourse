@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/binarySearchTrees.dir/DependInfo.cmake"
   "CMakeFiles/linkedLists.dir/DependInfo.cmake"
   "CMakeFiles/queues.dir/DependInfo.cmake"
   "CMakeFiles/arrayLists.dir/DependInfo.cmake"

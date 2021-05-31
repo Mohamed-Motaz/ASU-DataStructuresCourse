@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/mohamed247/Desktop/DataStructures/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/binarySearchTrees.dir/all
 all: CMakeFiles/linkedLists.dir/all
 all: CMakeFiles/queues.dir/all
 all: CMakeFiles/arrayLists.dir/all
@@ -64,6 +65,7 @@ all: CMakeFiles/classes.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/binarySearchTrees.dir/clean
 clean: CMakeFiles/linkedLists.dir/clean
 clean: CMakeFiles/queues.dir/clean
 clean: CMakeFiles/arrayLists.dir/clean
@@ -80,13 +82,40 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/binarySearchTrees.dir
+
+# All Build rule for target.
+CMakeFiles/binarySearchTrees.dir/all:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/depend
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=6,7,8 "Built target binarySearchTrees"
+.PHONY : CMakeFiles/binarySearchTrees.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/binarySearchTrees.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/binarySearchTrees.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/binarySearchTrees.dir/rule
+
+# Convenience name for target.
+binarySearchTrees: CMakeFiles/binarySearchTrees.dir/rule
+
+.PHONY : binarySearchTrees
+
+# clean rule for target.
+CMakeFiles/binarySearchTrees.dir/clean:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/clean
+.PHONY : CMakeFiles/binarySearchTrees.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/linkedLists.dir
 
 # All Build rule for target.
 CMakeFiles/linkedLists.dir/all:
 	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/depend
 	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target linkedLists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=12,13,14 "Built target linkedLists"
 .PHONY : CMakeFiles/linkedLists.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,7 +142,7 @@ CMakeFiles/linkedLists.dir/clean:
 CMakeFiles/queues.dir/all:
 	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/depend
 	$(MAKE) -f CMakeFiles/queues.dir/build.make CMakeFiles/queues.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=14,15,16 "Built target queues"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=17,18,19 "Built target queues"
 .PHONY : CMakeFiles/queues.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +223,7 @@ CMakeFiles/DataStructures.dir/clean:
 CMakeFiles/pointers.dir/all:
 	$(MAKE) -f CMakeFiles/pointers.dir/build.make CMakeFiles/pointers.dir/depend
 	$(MAKE) -f CMakeFiles/pointers.dir/build.make CMakeFiles/pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target pointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target pointers"
 .PHONY : CMakeFiles/pointers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +250,7 @@ CMakeFiles/pointers.dir/clean:
 CMakeFiles/stacks.dir/all:
 	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/depend
 	$(MAKE) -f CMakeFiles/stacks.dir/build.make CMakeFiles/stacks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=17,18,19 "Built target stacks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=20,21,22 "Built target stacks"
 .PHONY : CMakeFiles/stacks.dir/all
 
 # Build rule for subdir invocation for target.
@@ -248,7 +277,7 @@ CMakeFiles/stacks.dir/clean:
 CMakeFiles/classes.dir/all:
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/depend
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=6,7,8 "Built target classes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target classes"
 .PHONY : CMakeFiles/classes.dir/all
 
 # Build rule for subdir invocation for target.

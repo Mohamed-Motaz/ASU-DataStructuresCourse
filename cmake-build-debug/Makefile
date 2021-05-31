@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named binarySearchTrees
+
+# Build rule for target.
+binarySearchTrees: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binarySearchTrees
+.PHONY : binarySearchTrees
+
+# fast build rule for target.
+binarySearchTrees/fast:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/build
+.PHONY : binarySearchTrees/fast
+
+#=============================================================================
 # Target rules for targets named linkedLists
 
 # Build rule for target.
@@ -254,6 +267,60 @@ ArrayLists/arrayLists.s: ArrayLists/arrayLists.cpp.s
 ArrayLists/arrayLists.cpp.s:
 	$(MAKE) -f CMakeFiles/arrayLists.dir/build.make CMakeFiles/arrayLists.dir/ArrayLists/arrayLists.cpp.s
 .PHONY : ArrayLists/arrayLists.cpp.s
+
+BinarySearchTrees/BSTree.o: BinarySearchTrees/BSTree.cpp.o
+
+.PHONY : BinarySearchTrees/BSTree.o
+
+# target to build an object file
+BinarySearchTrees/BSTree.cpp.o:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/BinarySearchTrees/BSTree.cpp.o
+.PHONY : BinarySearchTrees/BSTree.cpp.o
+
+BinarySearchTrees/BSTree.i: BinarySearchTrees/BSTree.cpp.i
+
+.PHONY : BinarySearchTrees/BSTree.i
+
+# target to preprocess a source file
+BinarySearchTrees/BSTree.cpp.i:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/BinarySearchTrees/BSTree.cpp.i
+.PHONY : BinarySearchTrees/BSTree.cpp.i
+
+BinarySearchTrees/BSTree.s: BinarySearchTrees/BSTree.cpp.s
+
+.PHONY : BinarySearchTrees/BSTree.s
+
+# target to generate assembly for a file
+BinarySearchTrees/BSTree.cpp.s:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/BinarySearchTrees/BSTree.cpp.s
+.PHONY : BinarySearchTrees/BSTree.cpp.s
+
+BinarySearchTrees/binarySearchTrees.o: BinarySearchTrees/binarySearchTrees.cpp.o
+
+.PHONY : BinarySearchTrees/binarySearchTrees.o
+
+# target to build an object file
+BinarySearchTrees/binarySearchTrees.cpp.o:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/BinarySearchTrees/binarySearchTrees.cpp.o
+.PHONY : BinarySearchTrees/binarySearchTrees.cpp.o
+
+BinarySearchTrees/binarySearchTrees.i: BinarySearchTrees/binarySearchTrees.cpp.i
+
+.PHONY : BinarySearchTrees/binarySearchTrees.i
+
+# target to preprocess a source file
+BinarySearchTrees/binarySearchTrees.cpp.i:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/BinarySearchTrees/binarySearchTrees.cpp.i
+.PHONY : BinarySearchTrees/binarySearchTrees.cpp.i
+
+BinarySearchTrees/binarySearchTrees.s: BinarySearchTrees/binarySearchTrees.cpp.s
+
+.PHONY : BinarySearchTrees/binarySearchTrees.s
+
+# target to generate assembly for a file
+BinarySearchTrees/binarySearchTrees.cpp.s:
+	$(MAKE) -f CMakeFiles/binarySearchTrees.dir/build.make CMakeFiles/binarySearchTrees.dir/BinarySearchTrees/binarySearchTrees.cpp.s
+.PHONY : BinarySearchTrees/binarySearchTrees.cpp.s
 
 Classes/classes.o: Classes/classes.cpp.o
 
@@ -532,6 +599,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... binarySearchTrees"
 	@echo "... linkedLists"
 	@echo "... queues"
 	@echo "... arrayLists"
@@ -546,6 +614,12 @@ help:
 	@echo "... ArrayLists/arrayLists.o"
 	@echo "... ArrayLists/arrayLists.i"
 	@echo "... ArrayLists/arrayLists.s"
+	@echo "... BinarySearchTrees/BSTree.o"
+	@echo "... BinarySearchTrees/BSTree.i"
+	@echo "... BinarySearchTrees/BSTree.s"
+	@echo "... BinarySearchTrees/binarySearchTrees.o"
+	@echo "... BinarySearchTrees/binarySearchTrees.i"
+	@echo "... BinarySearchTrees/binarySearchTrees.s"
 	@echo "... Classes/classes.o"
 	@echo "... Classes/classes.i"
 	@echo "... Classes/classes.s"
