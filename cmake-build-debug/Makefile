@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named linkedLists
+
+# Build rule for target.
+linkedLists: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linkedLists
+.PHONY : linkedLists
+
+# fast build rule for target.
+linkedLists/fast:
+	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/build
+.PHONY : linkedLists/fast
+
+#=============================================================================
 # Target rules for targets named queues
 
 # Build rule for target.
@@ -296,6 +309,60 @@ Classes/rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles/classes.dir/build.make CMakeFiles/classes.dir/Classes/rectangle.cpp.s
 .PHONY : Classes/rectangle.cpp.s
 
+LinkedLists/LinkedList.o: LinkedLists/LinkedList.cpp.o
+
+.PHONY : LinkedLists/LinkedList.o
+
+# target to build an object file
+LinkedLists/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/LinkedLists/LinkedList.cpp.o
+.PHONY : LinkedLists/LinkedList.cpp.o
+
+LinkedLists/LinkedList.i: LinkedLists/LinkedList.cpp.i
+
+.PHONY : LinkedLists/LinkedList.i
+
+# target to preprocess a source file
+LinkedLists/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/LinkedLists/LinkedList.cpp.i
+.PHONY : LinkedLists/LinkedList.cpp.i
+
+LinkedLists/LinkedList.s: LinkedLists/LinkedList.cpp.s
+
+.PHONY : LinkedLists/LinkedList.s
+
+# target to generate assembly for a file
+LinkedLists/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/LinkedLists/LinkedList.cpp.s
+.PHONY : LinkedLists/LinkedList.cpp.s
+
+LinkedLists/linkedLists.o: LinkedLists/linkedLists.cpp.o
+
+.PHONY : LinkedLists/linkedLists.o
+
+# target to build an object file
+LinkedLists/linkedLists.cpp.o:
+	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/LinkedLists/linkedLists.cpp.o
+.PHONY : LinkedLists/linkedLists.cpp.o
+
+LinkedLists/linkedLists.i: LinkedLists/linkedLists.cpp.i
+
+.PHONY : LinkedLists/linkedLists.i
+
+# target to preprocess a source file
+LinkedLists/linkedLists.cpp.i:
+	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/LinkedLists/linkedLists.cpp.i
+.PHONY : LinkedLists/linkedLists.cpp.i
+
+LinkedLists/linkedLists.s: LinkedLists/linkedLists.cpp.s
+
+.PHONY : LinkedLists/linkedLists.s
+
+# target to generate assembly for a file
+LinkedLists/linkedLists.cpp.s:
+	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/LinkedLists/linkedLists.cpp.s
+.PHONY : LinkedLists/linkedLists.cpp.s
+
 Pointers/pointers.o: Pointers/pointers.cpp.o
 
 .PHONY : Pointers/pointers.o
@@ -465,6 +532,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... linkedLists"
 	@echo "... queues"
 	@echo "... arrayLists"
 	@echo "... DataStructures"
@@ -484,6 +552,12 @@ help:
 	@echo "... Classes/rectangle.o"
 	@echo "... Classes/rectangle.i"
 	@echo "... Classes/rectangle.s"
+	@echo "... LinkedLists/LinkedList.o"
+	@echo "... LinkedLists/LinkedList.i"
+	@echo "... LinkedLists/LinkedList.s"
+	@echo "... LinkedLists/linkedLists.o"
+	@echo "... LinkedLists/linkedLists.i"
+	@echo "... LinkedLists/linkedLists.s"
 	@echo "... Pointers/pointers.o"
 	@echo "... Pointers/pointers.i"
 	@echo "... Pointers/pointers.s"

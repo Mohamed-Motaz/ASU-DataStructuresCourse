@@ -12,3 +12,4 @@ add_executable(stacks Stacks/stacks.cpp Stacks/StackArr.cpp Stacks/StackArr.h)
 
 add_executable(queues Queues/queues.cpp Queues/QueueArr.cpp Queues/QueueArr.h)
 add_executable(arrayLists ArrayLists/arrayLists.cpp ArrayLists/ArrList.cpp ArrayLists/ArrList.h)
+add_executable(linkedLists LinkedLists/linkedLists.cpp LinkedLists/LinkedList.cpp LinkedLists/LinkedList.h)
