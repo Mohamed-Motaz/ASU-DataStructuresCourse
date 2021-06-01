@@ -1,6 +1,7 @@
 /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles/binarySearchTrees.dir
 /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles/linkedLists.dir
+/Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles/linkedStacks.dir
 /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles/queues.dir
 /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles/arrayLists.dir
 /Users/mohamed247/Desktop/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir

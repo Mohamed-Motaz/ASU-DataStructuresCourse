@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamed247/Desktop/DataStructures/LinkedStacks/LinkedStack.cpp
+LinkedStack.h
+/Users/mohamed247/Desktop/DataStructures/LinkedStacks/LinkedStack.h
+assert.h
+-
+
+/Users/mohamed247/Desktop/DataStructures/LinkedStacks/LinkedStack.h
+
+/Users/mohamed247/Desktop/DataStructures/LinkedStacks/linkedStacks.cpp
+LinkedStack.cpp
+/Users/mohamed247/Desktop/DataStructures/LinkedStacks/LinkedStack.cpp
+iostream
+-
+

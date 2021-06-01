@@ -137,6 +137,19 @@ linkedLists/fast:
 .PHONY : linkedLists/fast
 
 #=============================================================================
+# Target rules for targets named linkedStacks
+
+# Build rule for target.
+linkedStacks: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linkedStacks
+.PHONY : linkedStacks
+
+# fast build rule for target.
+linkedStacks/fast:
+	$(MAKE) -f CMakeFiles/linkedStacks.dir/build.make CMakeFiles/linkedStacks.dir/build
+.PHONY : linkedStacks/fast
+
+#=============================================================================
 # Target rules for targets named queues
 
 # Build rule for target.
@@ -430,6 +443,60 @@ LinkedLists/linkedLists.cpp.s:
 	$(MAKE) -f CMakeFiles/linkedLists.dir/build.make CMakeFiles/linkedLists.dir/LinkedLists/linkedLists.cpp.s
 .PHONY : LinkedLists/linkedLists.cpp.s
 
+LinkedStacks/LinkedStack.o: LinkedStacks/LinkedStack.cpp.o
+
+.PHONY : LinkedStacks/LinkedStack.o
+
+# target to build an object file
+LinkedStacks/LinkedStack.cpp.o:
+	$(MAKE) -f CMakeFiles/linkedStacks.dir/build.make CMakeFiles/linkedStacks.dir/LinkedStacks/LinkedStack.cpp.o
+.PHONY : LinkedStacks/LinkedStack.cpp.o
+
+LinkedStacks/LinkedStack.i: LinkedStacks/LinkedStack.cpp.i
+
+.PHONY : LinkedStacks/LinkedStack.i
+
+# target to preprocess a source file
+LinkedStacks/LinkedStack.cpp.i:
+	$(MAKE) -f CMakeFiles/linkedStacks.dir/build.make CMakeFiles/linkedStacks.dir/LinkedStacks/LinkedStack.cpp.i
+.PHONY : LinkedStacks/LinkedStack.cpp.i
+
+LinkedStacks/LinkedStack.s: LinkedStacks/LinkedStack.cpp.s
+
+.PHONY : LinkedStacks/LinkedStack.s
+
+# target to generate assembly for a file
+LinkedStacks/LinkedStack.cpp.s:
+	$(MAKE) -f CMakeFiles/linkedStacks.dir/build.make CMakeFiles/linkedStacks.dir/LinkedStacks/LinkedStack.cpp.s
+.PHONY : LinkedStacks/LinkedStack.cpp.s
+
+LinkedStacks/linkedStacks.o: LinkedStacks/linkedStacks.cpp.o
+
+.PHONY : LinkedStacks/linkedStacks.o
+
+# target to build an object file
+LinkedStacks/linkedStacks.cpp.o:
+	$(MAKE) -f CMakeFiles/linkedStacks.dir/build.make CMakeFiles/linkedStacks.dir/LinkedStacks/linkedStacks.cpp.o
+.PHONY : LinkedStacks/linkedStacks.cpp.o
+
+LinkedStacks/linkedStacks.i: LinkedStacks/linkedStacks.cpp.i
+
+.PHONY : LinkedStacks/linkedStacks.i
+
+# target to preprocess a source file
+LinkedStacks/linkedStacks.cpp.i:
+	$(MAKE) -f CMakeFiles/linkedStacks.dir/build.make CMakeFiles/linkedStacks.dir/LinkedStacks/linkedStacks.cpp.i
+.PHONY : LinkedStacks/linkedStacks.cpp.i
+
+LinkedStacks/linkedStacks.s: LinkedStacks/linkedStacks.cpp.s
+
+.PHONY : LinkedStacks/linkedStacks.s
+
+# target to generate assembly for a file
+LinkedStacks/linkedStacks.cpp.s:
+	$(MAKE) -f CMakeFiles/linkedStacks.dir/build.make CMakeFiles/linkedStacks.dir/LinkedStacks/linkedStacks.cpp.s
+.PHONY : LinkedStacks/linkedStacks.cpp.s
+
 Pointers/pointers.o: Pointers/pointers.cpp.o
 
 .PHONY : Pointers/pointers.o
@@ -601,6 +668,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... binarySearchTrees"
 	@echo "... linkedLists"
+	@echo "... linkedStacks"
 	@echo "... queues"
 	@echo "... arrayLists"
 	@echo "... DataStructures"
@@ -632,6 +700,12 @@ help:
 	@echo "... LinkedLists/linkedLists.o"
 	@echo "... LinkedLists/linkedLists.i"
 	@echo "... LinkedLists/linkedLists.s"
+	@echo "... LinkedStacks/LinkedStack.o"
+	@echo "... LinkedStacks/LinkedStack.i"
+	@echo "... LinkedStacks/LinkedStack.s"
+	@echo "... LinkedStacks/linkedStacks.o"
+	@echo "... LinkedStacks/linkedStacks.i"
+	@echo "... LinkedStacks/linkedStacks.s"
 	@echo "... Pointers/pointers.o"
 	@echo "... Pointers/pointers.i"
 	@echo "... Pointers/pointers.s"

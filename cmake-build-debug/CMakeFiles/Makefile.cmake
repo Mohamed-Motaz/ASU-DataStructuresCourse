@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/binarySearchTrees.dir/DependInfo.cmake"
   "CMakeFiles/linkedLists.dir/DependInfo.cmake"
+  "CMakeFiles/linkedStacks.dir/DependInfo.cmake"
   "CMakeFiles/queues.dir/DependInfo.cmake"
   "CMakeFiles/arrayLists.dir/DependInfo.cmake"
   "CMakeFiles/DataStructures.dir/DependInfo.cmake"
