@@ -29,6 +29,7 @@ public:
     int length();
     T at(int);
     void insertAt(int, T);
+    void moveNode(T, int);
     void deleteAt(int);
     void append(T);
     void display();

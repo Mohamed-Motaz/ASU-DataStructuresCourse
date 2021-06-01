@@ -87,6 +87,17 @@ void LinkedList<T>::display(){
     }
     cout << endl;
 }
+template<class T>
+void LinkedList<T>::moveNode(T val, int idx) {
+    Node<T> * tmp = head;
+    int curIdx = 0;
+    while (tmp != 0 && tmp->value != val){
+        curIdx++;
+        tmp = tmp->next;
+    }
+    deleteAt(curIdx);
+    insertAt(idx, val);
+}
 
 template<class T>
 void LinkedList<T>::append(T value) {
@@ -103,3 +114,4 @@ void LinkedList<T>::append(T value) {
 template<class T>
 LinkedList<T>::~LinkedList() {
 }
+

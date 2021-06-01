@@ -21,5 +21,14 @@ int main(){
     for (int i = 0; i < lst.length(); i++)
         cout << lst.at(i) << endl;
 
+    LinkedList<int> test;
+    test.append(1);
+    test.append(2);
+    test.append(3);
+    test.append(4);
+
+    test.moveNode(2, 0);
+
+    test.display();
 
 }
