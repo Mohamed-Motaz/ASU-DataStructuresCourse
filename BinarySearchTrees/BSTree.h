@@ -27,6 +27,7 @@ public:
     void inOrder(Node<T>* start);
     void preOrder(Node<T>* start);
     void postOrder(Node<T>* start);
+    int getLevel(T);
     Node<T>* findParent(T);
     Node<T>* findMin(Node<T>*);
     Node<T>* findNode(T);

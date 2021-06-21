@@ -74,3 +74,17 @@ template<class T>
 ArrList<T>::~ArrList() {
     delete [] arr;
 }
+template <class T>
+void ArrList<T>::RemoveDuplicates()
+{
+    T prev=arr[0];
+    for(int i=1; i<count; i++)
+    {
+        if(arr[i]==prev)
+        {
+            deleteAt(i);
+            i--;
+        }
+        else prev=arr[i];
+    }
+}

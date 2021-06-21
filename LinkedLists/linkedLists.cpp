@@ -16,7 +16,8 @@ int main(){
     lst.append(12);
     lst.deleteAt(3);
     lst.append(22);
-    //lst.insertAt(0, 100);
+    lst.insertAt(0, 100);
+    lst.insertAt(1, 200);
 
     for (int i = 0; i < lst.length(); i++)
         cout << lst.at(i) << endl;

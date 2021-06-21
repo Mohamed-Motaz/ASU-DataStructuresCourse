@@ -183,3 +183,17 @@ Node<T> *BSTree<T>::findMin(Node<T>* start) {
     }
     return minNode;
 }
+
+template<class T>
+int BSTree<T>::getLevel(T val) {
+    assert(contains(val));
+    int ctr = 0;
+    Node<T> * tmp = root;
+    while (tmp->value != val){
+        ctr++;
+        if (val < tmp->value)
+            tmp = tmp->left;
+        else tmp = tmp->right;
+    }
+    return ctr;
+}

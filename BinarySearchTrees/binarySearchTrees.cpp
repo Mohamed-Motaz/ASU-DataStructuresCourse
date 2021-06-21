@@ -31,6 +31,11 @@ int main(){
 //    bst.insert(64);
 //    bst.insert(70);
 
+    cout << bst.getLevel(100) << endl;
+    cout << bst.getLevel(200) << endl;
+    cout << bst.getLevel(150) << endl;
+
+
     bst.remove(100);
 
 

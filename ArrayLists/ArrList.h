@@ -20,6 +20,7 @@ public:
     T at(int);
     void insertAt(int, T);
     void deleteAt(int);
+    void RemoveDuplicates();
     ~ArrList();
 };
 
